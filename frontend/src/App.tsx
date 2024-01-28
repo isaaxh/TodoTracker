@@ -3,7 +3,7 @@ import axios from "axios";
 
 function App() {
   const handleClick = async () => {
-    const response = await axios.get("http://localhost:3333/hello-world");
+    const response = await axios.get("http://localhost:3333/getNames");
     console.log("response: ", response.data);
   };
   return (

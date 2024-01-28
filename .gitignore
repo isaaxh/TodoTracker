@@ -104,8 +104,11 @@ api/node_modules
 api/dist
 api/dist-ssr
 api/*.local
+api/.env
 
 frontend/node_modules
 frontend/dist
 frontend/dist-ssr
 frontend/*.local
+frontend/.env
+
